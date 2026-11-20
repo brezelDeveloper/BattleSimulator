@@ -3,11 +3,15 @@
   "WorkspaceRootPath": "C:\\Users\\User\\Documents\\GitHub\\BattleSimulator\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{6E6494CF-C19F-9626-A21C-9AC06DB325E6}|Assembly-CSharp.csproj|c:\\users\\user\\documents\\github\\battlesimulator\\assets\\script\\brezel\\unit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{6E6494CF-C19F-9626-A21C-9AC06DB325E6}|Assembly-CSharp.csproj|c:\\users\\user\\documents\\github\\battlesimulator\\assets\\script\\brezel\\freeview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6E6494CF-C19F-9626-A21C-9AC06DB325E6}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\brezel\\freeview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6E6494CF-C19F-9626-A21C-9AC06DB325E6}|Assembly-CSharp.csproj|C:\\Users\\User\\Documents\\GitHub\\BattleSimulator\\assets\\script\\brezel\\unit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6E6494CF-C19F-9626-A21C-9AC06DB325E6}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\brezel\\unit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6E6494CF-C19F-9626-A21C-9AC06DB325E6}|Assembly-CSharp.csproj|c:\\users\\user\\documents\\github\\battlesimulator\\assets\\script\\brezel\\placement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{6E6494CF-C19F-9626-A21C-9AC06DB325E6}|Assembly-CSharp.csproj|C:\\Users\\User\\Documents\\GitHub\\BattleSimulator\\assets\\script\\brezel\\placement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6E6494CF-C19F-9626-A21C-9AC06DB325E6}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\brezel\\placement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -21,6 +25,10 @@
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\User\\Documents\\GitHub\\BattleSimulator\\Assets\\Brezel\\script\\FreeView.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Brezel\\script\\FreeView.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|c:\\users\\user\\documents\\github\\battlesimulator\\assets\\editor\\battleunitanimimporter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:assets\\editor\\battleunitanimimporter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,37 +38,60 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Unit.cs",
-              "DocumentMoniker": "C:\\Users\\User\\Documents\\GitHub\\BattleSimulator\\Assets\\Script\\Brezel\\Unit.cs",
-              "RelativeDocumentMoniker": "Assets\\Script\\Brezel\\Unit.cs",
-              "ToolTip": "C:\\Users\\User\\Documents\\GitHub\\BattleSimulator\\Assets\\Script\\Brezel\\Unit.cs",
-              "RelativeToolTip": "Assets\\Script\\Brezel\\Unit.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAC8AAAA8AAAAAAAAAA==",
+              "DocumentIndex": 6,
+              "Title": "BattleUnitAnimImporter.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Documents\\GitHub\\BattleSimulator\\Assets\\Editor\\BattleUnitAnimImporter.cs",
+              "RelativeDocumentMoniker": "Assets\\Editor\\BattleUnitAnimImporter.cs",
+              "ToolTip": "C:\\Users\\User\\Documents\\GitHub\\BattleSimulator\\Assets\\Editor\\BattleUnitAnimImporter.cs",
+              "RelativeToolTip": "Assets\\Editor\\BattleUnitAnimImporter.cs",
+              "ViewState": "AgIAAFsAAAAAAAAAAAAYwD0AAAAkAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-11-19T22:50:54.591Z",
+              "WhenOpened": "2026-11-20T08:58:25.976Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "FreeView.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Documents\\GitHub\\BattleSimulator\\Assets\\Script\\Brezel\\FreeView.cs",
+              "RelativeDocumentMoniker": "Assets\\Script\\Brezel\\FreeView.cs",
+              "ToolTip": "C:\\Users\\User\\Documents\\GitHub\\BattleSimulator\\Assets\\Script\\Brezel\\FreeView.cs",
+              "RelativeToolTip": "Assets\\Script\\Brezel\\FreeView.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAAwB4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-20T08:00:38.041Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "Unit.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Documents\\GitHub\\BattleSimulator\\Assets\\Script\\Brezel\\Unit.cs",
+              "RelativeDocumentMoniker": "Assets\\Script\\Brezel\\Unit.cs",
+              "ToolTip": "C:\\Users\\User\\Documents\\GitHub\\BattleSimulator\\Assets\\Script\\Brezel\\Unit.cs",
+              "RelativeToolTip": "Assets\\Script\\Brezel\\Unit.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAxwAgAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-19T22:50:54.591Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "Placement.cs",
               "DocumentMoniker": "C:\\Users\\User\\Documents\\GitHub\\BattleSimulator\\Assets\\Script\\Brezel\\Placement.cs",
               "RelativeDocumentMoniker": "Assets\\Script\\Brezel\\Placement.cs",
               "ToolTip": "C:\\Users\\User\\Documents\\GitHub\\BattleSimulator\\Assets\\Script\\Brezel\\Placement.cs",
               "RelativeToolTip": "Assets\\Script\\Brezel\\Placement.cs",
-              "ViewState": "AgIAACcAAAAAAAAAAAAIwDMAAAA5AAAAAAAAAA==",
+              "ViewState": "AgIAADYAAAAAAAAAAAAIwEMAAAAbAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-11-19T22:32:38.561Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-11-19T22:32:38.561Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "Placement.cs",
               "DocumentMoniker": "C:\\Users\\User\\Documents\\GitHub\\BattleSimulator\\Assets\\Brezel\\script\\Placement.cs",
               "RelativeDocumentMoniker": "Assets\\Brezel\\script\\Placement.cs",
@@ -71,7 +102,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "FreeView.cs",
               "DocumentMoniker": "C:\\Users\\User\\Documents\\GitHub\\BattleSimulator\\Assets\\Brezel\\script\\FreeView.cs",
               "RelativeDocumentMoniker": "Assets\\Brezel\\script\\FreeView.cs",
@@ -83,7 +114,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "GridPaintPaletteWindow.cs",
               "DocumentMoniker": "C:\\Users\\User\\Documents\\GitHub\\BattleSimulator\\Library\\PackageCache\\com.unity.2d.tilemap@a9ce0f834706\\Editor\\GridPaintPaletteWindow.cs",
               "RelativeDocumentMoniker": "Library\\PackageCache\\com.unity.2d.tilemap@a9ce0f834706\\Editor\\GridPaintPaletteWindow.cs",

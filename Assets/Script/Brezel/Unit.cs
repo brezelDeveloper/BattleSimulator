@@ -11,22 +11,28 @@ public class Unit : MonoBehaviour
     public float range = 1.5f;
     public float attackDelay = 1f;
 
+    public float deathDelay = 1.6f;   // Death 애니메이션이 끝날 때까지 기다렸다가 삭제
+
     NavMeshAgent agent;
+    Animator anim;
     float timer;
+    bool dead;
 
     void Start()
     {
         agent = GetComponent<NavMeshAgent>();
+        anim = GetComponentInChildren<Animator>();
     }
 
     void Update()
     {
-        if (!battle) return;
+        if (!battle || dead) return;
 
         Unit target = FindNearest();
         if (target == null)
         {
             agent.isStopped = true;
+            SetMoving(false);
             return;
         }
 
@@ -36,14 +42,17 @@ public class Unit : MonoBehaviour
         {
             agent.isStopped = false;
             agent.SetDestination(target.transform.position);
+            SetMoving(true);
         }
         else
         {
             agent.isStopped = true;
+            SetMoving(false);
             timer += Time.deltaTime;
             if (timer >= attackDelay)
             {
                 timer = 0f;
+                if (anim != null) anim.SetTrigger("Attack");
                 target.TakeDamage(damage);
                 if (attackSound != null) attackSound.Play();
             }
@@ -52,8 +61,24 @@ public class Unit : MonoBehaviour
 
     public void TakeDamage(float amount)
     {
+        if (dead) return;
         hp -= amount;
-        if (hp <= 0) Destroy(gameObject);
+        if (hp <= 0) Die();
+        else if (anim != null) anim.SetTrigger("Hit");
+    }
+
+    void Die()
+    {
+        dead = true;
+        gameObject.tag = "Untagged";          // 다른 유닛이 더 이상 노리지 않게
+        if (agent != null) { agent.isStopped = true; agent.enabled = false; }
+        if (anim != null) { anim.SetBool("Moving", false); anim.SetTrigger("Death"); }
+        Destroy(gameObject, anim != null ? deathDelay : 0f);
+    }
+
+    void SetMoving(bool moving)
+    {
+        if (anim != null) anim.SetBool("Moving", moving);
     }
 
     Unit FindNearest()

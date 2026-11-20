@@ -1,0 +1,494 @@
+[Licensing::Module] Trying to connect to existing licensing client channel...
+Built from '6000.0/staging' branch; Version is '6000.0.85f1 (ee7790f1426a) revision 15628176'; Using compiler version '193933523'; Build Type 'Release'
+OS: 'Windows 11  (10.0.26100) Education' Language: 'ko' Physical Memory: 32441 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1
+System  architecture: x64
+Process architecture: x64
+Date: 2026-11-20T09:21:10Z
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-User" at "2026-11-20T09:21:10.9287876Z"
+
+COMMAND LINE ARGUMENTS:
+Y:\Programs\Unity Hub\Editor\6000.0.85f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker11
+-projectPath
+C:/Users/User/Documents/GitHub/BattleSimulator
+-logFile
+Logs/AssetImportWorker11.log
+-srvPort
+57208
+-parentPid
+16696
+-analyticsCloudUserId
+14569485278761
+-analyticsCloudProjectId
+e328b745-e54b-454b-a03b-f80bec038f4f
+-analyticsLocalProjectId
+2b3988a69180ad24eae4305ce8bd7699
+-editorAnalyticsEnabled
+1
+-cbmEditorLicense
+e1f489d09f47f84286b85fe35e36cd275a43a99c
+-cbmMachineId
+3+OCncrfrSKwkwx8aQG2fdTa/DQ=
+-licensingIpc
+LicenseClient-User
+-job-worker-count
+11
+-background-job-worker-count
+8
+-gc-helper-count
+1
+-name
+AssetImport
+Successfully changed project path to: C:/Users/User/Documents/GitHub/BattleSimulator
+C:/Users/User/Documents/GitHub/BattleSimulator
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-remapper-allocator-initial-capacity=32768"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [12332]  Target information:
+
+Player connection [12332]  * "[IP] 10.129.206.170 [Port] 0 [Flags] 2 [Guid] 3834055077 [EditorId] 3834055077 [Version] 1048832 [Id] WindowsEditor(7,H201-10) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [12332] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [12332] Host joined alternative multi-casting on [225.0.0.222:34997]...
+JobSystem: Creating JobQueue using job-worker-count value 11
+Input System module state changed to: Initialized.
+[Physics::Module] Initialized fallback backend.
+[Physics::Module] Id: 0xdecafbad
+Library Redirect Path: Library/
+[Physics::Module] Selected backend.
+[Physics::Module] Name: PhysX
+[Physics::Module] Id: 0xf2b8ea05
+[Physics::Module] SDK Version: 4.1.2
+[Physics::Module] Integration Version: 1.0.0
+[Physics::Module] Threading Mode: Multi-Threaded
+Refreshing native plugins compatible for Editor in 1.32 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 6000.0.85f1 (ee7790f1426a)
+[Subsystems] Discovering subsystems at path Y:/Programs/Unity Hub/Editor/6000.0.85f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/User/Documents/GitHub/BattleSimulator/Assets
+GfxDevice: creating device client; kGfxThreadingModeNonThreaded
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 4060 (ID=0x2882)
+    Vendor:   NVIDIA
+    VRAM:     7957 MB
+    Driver:   32.0.15.7688
+Initialize mono
+Mono path[0] = 'Y:/Programs/Unity Hub/Editor/6000.0.85f1/Editor/Data/Managed'
+Mono path[1] = 'Y:/Programs/Unity Hub/Editor/6000.0.85f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'Y:/Programs/Unity Hub/Editor/6000.0.85f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56620
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: Y:/Programs/Unity Hub/Editor/6000.0.85f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.001156 seconds.
+[Licensing::Client] Error: HandshakeResponse reported an error:
+	ResponseCode: 505
+	ResponseStatus: Unsupported protocol version '1.18.3'.
+[Licensing::Module] Error: Failed to handshake to channel: "LicenseClient-User"
+[Licensing::IpcConnector] LicenseClient-User channel disconnected successfully.
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-User-6000.0.85" at "2026-11-20T09:21:11.5273622Z"
+[Licensing::Client] Code 10 while verifying Licensing Client signature (process Id: 5416, path: "Y:/Programs/Unity Hub/Editor/6000.0.85f1/Editor/Data/Resources/Licensing/Client/Unity.Licensing.Client.exe")
+[Licensing::Module] LicensingClient has failed validation; ignoring
+[Licensing::Client] Handshaking with LicensingClient:
+  Version:                 1.18.3+d7ffd15
+  Session Id:              e7c02abcacf741f3ad00f06c47c087eb
+  Correlation Id:          ee9c0b812f6313f3d48eae0cd8b8fc6c
+  External correlation Id: 156898876335561566
+  Machine Id:              3+OCncrfrSKwkwx8aQG2fdTa/DQ=
+[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-User-6000.0.85" (connect: 0.00s, validation: 0.00s, handshake: 0.00s)
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-User-6000.0.85-notifications" at "2026-11-20T09:21:11.5323894Z"
+[Licensing::Module] Licensing Background thread has ended after 0.60s
+- Loaded All Assemblies, in  0.290 seconds
+Native extension for WindowsStandalone target not found
+Package Manager log level set to [2]
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.204 seconds
+Domain Reload Profiling: 493ms
+	BeginReloadAssembly (96ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (27ms)
+	RebuildNativeTypeToScriptingClass (10ms)
+	initialDomainReloadingComplete (37ms)
+	LoadAllAssembliesAndSetupDomain (120ms)
+		LoadAssemblies (95ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (118ms)
+			TypeCache.Refresh (117ms)
+				TypeCache.ScanAssembly (108ms)
+			BuildScriptInfoCaches (0ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (204ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (176ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (12ms)
+			SetLoadedEditorAssemblies (3ms)
+			BeforeProcessingInitializeOnLoad (39ms)
+			ProcessInitializeOnLoadAttributes (91ms)
+			ProcessInitializeOnLoadMethodAttributes (30ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Module] License group:
+  Id: 14569485278761-UnityPersXXXX
+  Product: Unity Personal
+  Type: Assigned
+  Expiration: Unlimited
+========================================================================
+Worker process is ready to serve import requests
+Import Worker Mode flag is 0x00
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.536 seconds
+Refreshing native plugins compatible for Editor in 0.73 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Refreshing native plugins compatible for Editor in 0.83 ms, found 4 plugins.
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.447 seconds
+Domain Reload Profiling: 981ms
+	BeginReloadAssembly (117ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (3ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (19ms)
+	RebuildCommonClasses (23ms)
+	RebuildNativeTypeToScriptingClass (7ms)
+	initialDomainReloadingComplete (24ms)
+	LoadAllAssembliesAndSetupDomain (363ms)
+		LoadAssemblies (250ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (180ms)
+			TypeCache.Refresh (124ms)
+				TypeCache.ScanAssembly (112ms)
+			BuildScriptInfoCaches (47ms)
+			ResolveRequiredComponents (6ms)
+	FinalizeReload (447ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (365ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (2ms)
+			SetLoadedEditorAssemblies (3ms)
+			BeforeProcessingInitializeOnLoad (80ms)
+			ProcessInitializeOnLoadAttributes (238ms)
+			ProcessInitializeOnLoadMethodAttributes (41ms)
+			AfterProcessingInitializeOnLoad (1ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (3ms)
+WARNING: Shader Unsupported: 'Hidden/Universal Render Pipeline/Terrain/Lit (Base Pass)' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Hidden/Universal Render Pipeline/Terrain/Lit (Base Pass)' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Universal Render Pipeline/Terrain/Lit' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Universal Render Pipeline/Terrain/Lit' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.01 seconds
+Refreshing native plugins compatible for Editor in 1.42 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 32 Unused Serialized files (Serialized files now loaded: 0)
+Curl error 3: URL rejected: Malformed input to a URL function
+Unloading 6743 unused Assets / (5.3 MB). Loaded Objects now: 7296.
+Memory consumption went from 140.4 MB to 135.0 MB.
+Total: 10.994000 ms (FindLiveObjects: 1.247500 ms CreateObjectMapping: 1.127700 ms MarkObjects: 5.396600 ms  DeleteObjects: 3.220500 ms)
+
+========================================================================
+Received Prepare
+WARNING: Shader Unsupported: 'Hidden/Universal Render Pipeline/Terrain/Lit (Base Pass)' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Hidden/Universal Render Pipeline/Terrain/Lit (Base Pass)' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Universal Render Pipeline/Terrain/Lit' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Universal Render Pipeline/Terrain/Lit' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+Refreshing native plugins compatible for Editor in 1.42 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 32 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6731 unused Assets / (5.5 MB). Loaded Objects now: 7297.
+Memory consumption went from 138.1 MB to 132.6 MB.
+Total: 10.642400 ms (FindLiveObjects: 0.671000 ms CreateObjectMapping: 0.883600 ms MarkObjects: 5.267000 ms  DeleteObjects: 3.819600 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 6432.932894 seconds.
+  path: Assets/Prefeb/Editor/Models/archer_blue.fbx
+  artifactKey: Guid(a1e65d2f2d1c9574eb35af6867d6e0de) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Prefeb/Editor/Models/archer_blue.fbx using Guid(a1e65d2f2d1c9574eb35af6867d6e0de) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'd6fd8cba022f0de8447ff0d7ed7e3b0d') in 0.1956215 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 49
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Prefeb/test/Models/infantry_blue_Animator.controller
+  artifactKey: Guid(fbe5bb805b1fb374e9909a2eb2242f4e) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Prefeb/test/Models/infantry_blue_Animator.controller using Guid(fbe5bb805b1fb374e9909a2eb2242f4e) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'f55f1d0367c35c1c15bf674a42ed79cb') in 0.0114775 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 17
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000061 seconds.
+  path: Assets/Prefeb/Editor/Editor/Models
+  artifactKey: Guid(4c17ff614650fe4428da6b45ffd6e127) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Prefeb/Editor/Editor/Models using Guid(4c17ff614650fe4428da6b45ffd6e127) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'ca4af84e2381ec393d238320798fecbd') in 0.0088638 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000107 seconds.
+  path: Assets/Prefeb/Editor/Models/cavalry_blue_Animator.controller
+  artifactKey: Guid(b72559c0145a0ca479730c7bc8ee14ae) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Prefeb/Editor/Models/cavalry_blue_Animator.controller using Guid(b72559c0145a0ca479730c7bc8ee14ae) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '2617a195eee534c8c698f50e0a30c419') in 0.0102401 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 17
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Prefeb/Editor/Editor/BattleUnitAnimImporter.cs
+  artifactKey: Guid(963fb83dc55f01a48b159da4feed1447) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Prefeb/Editor/Editor/BattleUnitAnimImporter.cs using Guid(963fb83dc55f01a48b159da4feed1447) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'cdf3df62ad2a4482274e88cfda4a72fc') in 0.0093489 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000101 seconds.
+  path: Assets/Prefeb/Editor/Editor/Models/bomber_blue_Animator.controller
+  artifactKey: Guid(907610544afba7f41859e8c89e3c9e05) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Prefeb/Editor/Editor/Models/bomber_blue_Animator.controller using Guid(907610544afba7f41859e8c89e3c9e05) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '1971d865cc61661a8d3854f557f02ceb') in 0.0089009 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 17
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Prefeb/Editor/Models/infantry_blue_Animator.controller
+  artifactKey: Guid(275db2eab9d3f674fb02d4f23fbef5b5) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Prefeb/Editor/Models/infantry_blue_Animator.controller using Guid(275db2eab9d3f674fb02d4f23fbef5b5) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'b496aded3faa76c33d048aaf087437b0') in 0.0081173 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 17
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Prefeb/test/Models/bomber_red_Animator.controller
+  artifactKey: Guid(f37c33af2ee7a0f4aa86e8022cd32ba0) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Prefeb/test/Models/bomber_red_Animator.controller using Guid(f37c33af2ee7a0f4aa86e8022cd32ba0) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '7d8f7f95a32fafb0e7316d4b841cd6ad') in 0.0115357 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 17
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/Prefeb/Editor/Models/medic_blue_Animator.controller
+  artifactKey: Guid(852daeeac91a63a4ab85ec68e1d49cdd) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Prefeb/Editor/Models/medic_blue_Animator.controller using Guid(852daeeac91a63a4ab85ec68e1d49cdd) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'bee1362dc4ec22c4285ab8e16dde1446') in 0.0101263 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 17
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000101 seconds.
+  path: Assets/Prefeb/Editor/Editor/Models/artillery_red.fbx
+  artifactKey: Guid(6ce018f0290254349a33a85573d79d34) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Prefeb/Editor/Editor/Models/artillery_red.fbx using Guid(6ce018f0290254349a33a85573d79d34) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'f6a2e4d4fce81e0e11f81c0225f47e92') in 0.0211681 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 48
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000010 seconds.
+  path: Assets/Prefeb/test/Models/archer_blue.fbx
+  artifactKey: Guid(9cd2f1f894af8ff45a8847da172ee3c2) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Prefeb/test/Models/archer_blue.fbx using Guid(9cd2f1f894af8ff45a8847da172ee3c2) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'cf42cb8c509dd8a151751d42fbafe7b1') in 0.0222167 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 49
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/Prefeb/Editor/Editor/Models/bomber_blue.fbx
+  artifactKey: Guid(2c97214ff75dd2246a18e449887e49e4) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Prefeb/Editor/Editor/Models/bomber_blue.fbx using Guid(2c97214ff75dd2246a18e449887e49e4) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '22c6a4ae4ca3d244b89fb4f1db1973b8') in 0.0208822 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 29
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Prefeb/Editor/Models/bomber_red_Animator.controller
+  artifactKey: Guid(0947f6b5aa17ae1479d00283da092ad0) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Prefeb/Editor/Models/bomber_red_Animator.controller using Guid(0947f6b5aa17ae1479d00283da092ad0) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '1decec41286b6500a6a27468615be262') in 0.0088879 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 17
+
+========================================================================
+Received Prepare
+WARNING: Shader Unsupported: 'Hidden/Universal Render Pipeline/Terrain/Lit (Base Pass)' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Hidden/Universal Render Pipeline/Terrain/Lit (Base Pass)' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Universal Render Pipeline/Terrain/Lit' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Universal Render Pipeline/Terrain/Lit' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+Refreshing native plugins compatible for Editor in 2.16 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 32 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6731 unused Assets / (5.5 MB). Loaded Objects now: 7299.
+Memory consumption went from 139.1 MB to 133.7 MB.
+Total: 11.552500 ms (FindLiveObjects: 0.958300 ms CreateObjectMapping: 1.305000 ms MarkObjects: 6.081100 ms  DeleteObjects: 3.206100 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 2.299052 seconds.
+  path: Assets/Prefeb/test/Editor/Editor
+  artifactKey: Guid(a9aa991abda2a6346910dc95af2324cb) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Prefeb/test/Editor/Editor using Guid(a9aa991abda2a6346910dc95af2324cb) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '71efba01b0369131fa56319aeebe3d26') in 0.0129273 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000058 seconds.
+  path: Assets/Prefeb/test/Editor/Editor/Models/bomber_red_Animator.controller
+  artifactKey: Guid(fd8a2b37ff206344aa1958b1ea70752e) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Prefeb/test/Editor/Editor/Models/bomber_red_Animator.controller using Guid(fd8a2b37ff206344aa1958b1ea70752e) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '754cd279d36c02af266e447ae68df974') in 0.0110806 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 17
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000066 seconds.
+  path: Assets/Prefeb/test/Editor/Editor/Models/bomber_red.fbx
+  artifactKey: Guid(ac0fd76f6ef2e9343b358d085fae9f4e) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Prefeb/test/Editor/Editor/Models/bomber_red.fbx using Guid(ac0fd76f6ef2e9343b358d085fae9f4e) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '51907cae1f55ad2181d59cac3c2898b7') in 0.0237821 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 29
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Prefeb/test/Editor/Models/bomber_blue_Animator.controller
+  artifactKey: Guid(ff28ae3933b260d4098a212ed85231aa) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Prefeb/test/Editor/Models/bomber_blue_Animator.controller using Guid(ff28ae3933b260d4098a212ed85231aa) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'eb269e8fb5b33d7664de6d3ca537aef0') in 0.0112294 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 17
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Prefeb/test/Editor/Editor/Models/cavalry_blue_Animator.controller
+  artifactKey: Guid(40e23285d52f24a4cb85f90cac63e88e) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Prefeb/test/Editor/Editor/Models/cavalry_blue_Animator.controller using Guid(40e23285d52f24a4cb85f90cac63e88e) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '5c57490a9e1a80bd84a5ff6cf022b7f5') in 0.0100332 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 17
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/Prefeb/test/Editor/Models/archer_blue.fbx
+  artifactKey: Guid(a1e65d2f2d1c9574eb35af6867d6e0de) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Prefeb/test/Editor/Models/archer_blue.fbx using Guid(a1e65d2f2d1c9574eb35af6867d6e0de) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'caad5695e9263578398ca02a2ed501a0') in 0.0200202 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 49
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Prefeb/test/Editor/Editor/Models/medic_red.fbx
+  artifactKey: Guid(586cfee868199c749a2299c6d8775fba) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Prefeb/test/Editor/Editor/Models/medic_red.fbx using Guid(586cfee868199c749a2299c6d8775fba) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '327cbd9c70d51c063b45b6bac316ca72') in 0.0234408 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 33
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Prefeb/test/Editor/Models/archer_red_Animator.controller
+  artifactKey: Guid(8ea67531aabf49a448a209ec723a150c) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Prefeb/test/Editor/Models/archer_red_Animator.controller using Guid(8ea67531aabf49a448a209ec723a150c) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'd144bfbd9e5b7f9fbd82537c5118de19') in 0.025108 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 17
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Prefeb/test/Editor/Models/artillery_red_Animator.controller
+  artifactKey: Guid(f5aa5b9829717d148b77f7aa9fe73153) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Prefeb/test/Editor/Models/artillery_red_Animator.controller using Guid(f5aa5b9829717d148b77f7aa9fe73153) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '039a90e2aa0ae4d02209b0bf5cb3c89d') in 0.0122172 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 17
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Prefeb/test/Editor/Editor/Models/archer_blue_Animator.controller
+  artifactKey: Guid(f0c57a603cff45942bfaf0d61c769ca6) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Prefeb/test/Editor/Editor/Models/archer_blue_Animator.controller using Guid(f0c57a603cff45942bfaf0d61c769ca6) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'ff96348545b5c6d3e04eaab51f2601f2') in 0.0158539 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 17
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000095 seconds.
+  path: Assets/Prefeb/test/Editor/Editor/Models/medic_red_Animator.controller
+  artifactKey: Guid(7c60a08b2f5d49744bafe4d9d0e8a99e) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Prefeb/test/Editor/Editor/Models/medic_red_Animator.controller using Guid(7c60a08b2f5d49744bafe4d9d0e8a99e) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '2813873d70af525c367d493aca21111d') in 0.0256071 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 17
+
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
